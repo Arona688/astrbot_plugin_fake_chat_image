@@ -1,0 +1,19 @@
+{
+  "self_qq": {
+    "description": "把谁的消息显示在右侧（自己发出的气泡）",
+    "type": "string",
+    "default": "",
+    "hint": "留空则使用发指令的人；官方 bot 群可填 openid"
+  },
+  "qq_appid": {
+    "description": "官方 bot 的 AppID（用于拉取 @ 用户的头像）",
+    "type": "string",
+    "default": "",
+    "hint": "填了之后 @ 提及的用户能显示头像；留空则用首字头像兜底"
+  },
+  "max_messages": {
+    "description": "单次最多渲染多少条",
+    "type": "int",
+    "default": 20
+  }
+}

@@ -1,0 +1,29 @@
+name: astrbot_plugin_fake_chat_image
+display_name: 伪造聊天（图片版）
+short_desc: 把多段对话渲染成 QQ 风格聊天截图，支持 @ 指定说话人
+desc: |-
+  把多段对话渲染成 QQ 风格的聊天截图。官方机器人不支持合并转发，所以改为本地渲染 PNG 再发送。
+
+  指令：`/伪造聊天@某人 内容|@另一个人 内容`
+  也兼容旧写法：`/伪造聊天 123456#昵称 内容|654321#昵称 内容`
+
+  特性：
+  - 支持 @ 指定说话人，自动取头像与昵称
+  - 兼容 QQ 官方 bot（官方不会把 @群友 解析成组件，插件会解析 `<@!openid>` 文本标记）
+  - 支持 NapCat / OneBot（QQ 号头像）
+  - 单次最多渲染 20 条，可配置
+  - 帮助：发「伪造帮助」
+version: 1.1.0
+author: chen
+repo: "https://github.com/Arona688/astrbot_plugin_fake_chat_image"
+astrbot_version: ">=4.20.0"
+support_platforms:
+  - qq_official
+  - qq_official_webhook
+  - aiocqhttp
+category: 娱乐
+tags:
+  - QQ
+  - 聊天
+  - 整活
+  - 截图
