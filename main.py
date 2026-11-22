@@ -328,6 +328,7 @@ class FakeChatImagePlugin(Star):
     def _help_text(self) -> str:
         return (
             "▍用法\n"
+            "直接发指令即可，不需要 @机器人：\n"
             "/伪造聊天@某人 内容|@另一个人 内容\n"
             "\n"
             "▍示例\n"
