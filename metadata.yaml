@@ -4,9 +4,9 @@ short_desc: 把对话渲染成 QQ 风格聊天截图
 desc: |-
   把多段对话渲染成 QQ 风格的聊天截图，官方机器人群也能发。
 
-  用法：`/伪造聊天@某人 内容|@另一个人 内容`
+  用法：`/伪造聊天@某人 内容|@另一个人 内容`（不需要 @机器人）
   帮助：发「伪造帮助」
-version: 1.1.1
+version: 1.1.2
 author: chen
 repo: "https://github.com/Arona688/astrbot_plugin_fake_chat_image"
 astrbot_version: ">=4.20.0"
