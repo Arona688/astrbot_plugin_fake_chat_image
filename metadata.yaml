@@ -5,7 +5,7 @@ desc: |-
   发 `/伪造聊天@某人 内容|@另一个人 内容`，渲染成 QQ 风格聊天截图。
 
   目前仅在 QQ 官方机器人测试过。
-version: 1.1.4
+version: 1.1.5
 author: chen
 repo: "https://github.com/Arona688/astrbot_plugin_fake_chat_image"
 astrbot_version: ">=4.20.0"
